@@ -1,0 +1,22 @@
+# virtual lab experiment-1,2
+# ------EXPERIMENT-1-------
+# POSTTEST
+![OUTPUT](1.PNG)
+
+# PRETEST
+![OUTPUT](2.PNG)
+
+# STIMULATION
+![OUTPUT](3.PNG)
+![OUTPUT](4.PNG)
+![OUTPUT](5.PNG)
+
+# POSTTEST
+![OUTPUT](V2 3.PNG)
+
+# STIMULATION
+![OUTPUT](V2 2.PNG)
+
+# PRETEST
+![OUTPUT](V2 1.PNG)
+
