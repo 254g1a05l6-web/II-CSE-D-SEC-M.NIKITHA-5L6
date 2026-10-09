@@ -1,9 +1,8 @@
 #Additional Experiment -1
-```
-```
-```
+
 #Student Information Lookup Using Student ID
 #1.Create the STUDENT Table
+```
 ```
 ```
 CREATE TABLE student (
@@ -13,7 +12,7 @@ CREATE TABLE student (
     marks        NUMBER(5,2)
 );
 ```
-![output](1 image/jpeg)
+![OUTPUT](01.PNG)
 ```
 #2.Insert Sample Records
 ```
@@ -26,14 +25,14 @@ INSERT INTO student VALUES (105, 'Rahul',  'IT',  74);
 
 COMMIT;
 ```
-![output](2 image/jpeg)
+![OUTPUT](02.PNG)
 ```
 #3.Verify the records
 ```
 ```
 SELECT * FROM student;
 ```
-![output](3 image/jpeg)
+![OUTPUT](03.PNG)
 ```
 #4.Write the PL/SQL Block
 ```
@@ -75,10 +74,8 @@ EXCEPTION
 END;
 /
 ```
-![output](4 image/jpeg)
-![output](5 image/jpeg)
+![OUTPUT](04.PNG)
 ```
-
 
 
 
