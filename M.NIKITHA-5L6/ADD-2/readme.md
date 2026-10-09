@@ -13,7 +13,7 @@ CREATE TABLE employee (
     monthly_salary NUMBER(10,2)
 );
 ```
-![output](1 jpeg)
+![output](01 PNG)
 ```
 #2.Insert Sample Employee Records
 ```
@@ -26,15 +26,14 @@ INSERT INTO employee VALUES (105, 'Rahul',  'IT',  45000);
 
 COMMIT;
 ```
-![output](2 jpeg)
-![output](3 jpeg)
+![output](02 PNG))
 ```
 #3.Verify the records
 ```
 ```
 SELECT * FROM employee;
 ```
-![output](4 jpeg)
+![output](3 PNG)
 ```
 #4.Create the Stored Function
 ```
@@ -51,7 +50,7 @@ BEGIN
     RETURN v_annual_salary;
 END;
 ```
-![output](5 jpeg)
+![output](04 PNG)
 ```
 
 
@@ -62,7 +61,7 @@ SELECT object_name, status
 FROM user_objects
 WHERE object_name = 'CALCULATE_ANNUAL_SALARY';
 ```
-![output](6 jpeg)
+![output](5 PNG)
 ```
 
 #6.Invoke the Function Using a SELECT Statement
@@ -76,7 +75,7 @@ SELECT employee_id,
        calculate_annual_salary(monthly_salary) AS annual_salary
 FROM employee;
 ```
-![output](7 jpeg)
+![output](6 PNG)
 ```
 
 #7.Invoking the function uisng PL/SQL code
@@ -101,6 +100,6 @@ BEGIN
 END;
 
 ```
-![output](8 jpeg)
+![output](7 PNG)
 ```
 
