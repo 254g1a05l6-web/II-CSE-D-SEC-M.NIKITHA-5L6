@@ -14,7 +14,7 @@ CREATE TABLE employee (
     salary        NUMBER(10,2)
 );
 ```
-![output](1 jpeg)
+![output](01 PNG)
 ```
 
 #2.Insert Sample records
@@ -46,25 +46,20 @@ INSERT INTO employee VALUES
 
 COMMIT;
 ```
-![output](2 jpeg)
+![output](02 PNG)
 ```
 #3.Verify the records
 ```
 ```
 SELECT * FROM employee;
 ```
-![output](3 jpeg)
+![output](03 PNG)
 ```
 #4.ENABLE SERVEROUPUT
 ```
 ```
 SET SERVEROUTPUT ON;
-```
-![output](4 jpeg)
-```
-#5.PL/SQL code
-```
-```
+
 
 DECLARE
 
@@ -119,7 +114,7 @@ BEGIN
 END;
 /
 ```
-![output](5 jpeg)
+![output](4 PNG)
 ```
 
 
